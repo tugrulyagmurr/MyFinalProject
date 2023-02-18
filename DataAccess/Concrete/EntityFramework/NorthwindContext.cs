@@ -26,5 +26,9 @@ namespace DataAccess.Concrete.EntityFramework
 
         //Customer classı Customers tablosuna karşılık geliyor 
         public DbSet<Customer> Customers { get; set; }
+
+        //Order classı Orders tablosuna karşılık geliyor
+
+        public DbSet<Order> Orders { get; set; }
     }
 }

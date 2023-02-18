@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
-using Entities.Abstract;
-using Entities.Concrete;
+using Core.Entities;
 
-namespace DataAccess.Abstract
+
+namespace Core.DataAccess
 {
     //class : class olabilir demek değil, referans tip olabilir demek, T ya IEntity olur ya da IEntity'den 
     //implement edilmiş bir class olabilir
